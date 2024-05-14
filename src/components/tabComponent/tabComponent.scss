@@ -1,0 +1,30 @@
+
+.active-tab{
+    background-color: #c2bcbc48;
+}
+.tab-content{
+    img{
+        border-radius: 20px;
+    }
+}
+.tab-button-item{
+    font-size: 22px;
+    border-radius: 15px;
+    border: 1px solid #232323;
+    padding: 5px 20px;
+    @media (max-width:520px) {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+}
+.tab-button-container{
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    @media (max-width:520px) {
+        justify-content: start;
+        gap: 10px;
+        margin-top: 15px;
+    }
+}
